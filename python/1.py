@@ -4,3 +4,10 @@ j=0
 for i in range(0,10):
     print('current number',i,'previous number',j,'sum =',i+j)
     j=i
+========================= 
+# Write a Python code to display numbers from a list divisible by 5
+list=[10,20,33,46,55]
+print('given list is:',list)
+for number in list:
+ if number % 5 == 0:
+     print(number)
