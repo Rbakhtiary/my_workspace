@@ -18,3 +18,11 @@ for i in range(1,11):
         c=i*j
         print(c,end=' ')
     print()
+========================
+# Write a program to take three names as input from the user in a single call to the input() function.
+names =input('enter three string:').split()
+if len(names) !=3:
+    print('please enter three string')
+else:
+    for i in range(3):
+        print(f'Name{i+1}: {names[i]}')
