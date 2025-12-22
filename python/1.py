@@ -26,3 +26,16 @@ if len(names) !=3:
 else:
     for i in range(3):
         print(f'Name{i+1}: {names[i]}')
+=========================
+# You have two lists: names = ["Alice", "Bob", "Charlie"] and scores = [85, 92, 78].
+# Print these lists as a simple table with columns “Name” and “Score”.
+
+names = ["Alice","Bob","Charlie"]
+scores = [85,72,90]
+
+print("Name    Score")
+print("----------------")
+
+for i,name in enumerate(names):
+        print(f'{name:<9}{scores[i]}')
+=============================
