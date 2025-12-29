@@ -39,6 +39,12 @@ print("----------------")
 for i,name in enumerate(names):
         print(f'{name:<9}{scores[i]}')
 ============================= 
+# Ask the user for a word and a number. Print the word right-aligned in a field of width 20, followed by the number.
+
+word=input('Enter a word: ')
+num=int(input('Enter a number: '))
+
+print(f'{word:>20}{num}')
 =============================
 =============================
 =============================
