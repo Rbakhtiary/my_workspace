@@ -47,3 +47,4 @@ num=int(input('Enter a number: '))
 print(f'{word:>20}{num}')
 =============================
 
+===========
